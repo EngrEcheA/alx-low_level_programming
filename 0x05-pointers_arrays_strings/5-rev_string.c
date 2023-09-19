@@ -18,6 +18,7 @@ void rev_string(char *s)
 	half = length / 2;
 	
 	while (half--)
+
 	{
 		temp = s[length - z - 1];
 		s[length - z - 1] = s[z];
