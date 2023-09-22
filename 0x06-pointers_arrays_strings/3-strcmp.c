@@ -3,7 +3,7 @@
 * _strcmp - compares two strings.
 * @s1: pointer to first string.
 * @s2: pointer to second string.
-* Return: value less than 0 if string is less than the other, greater than 0 if string is greater, and 0 if strings are equal.
+* Return: value <  0 if string is < the other, value > 0 if string is > the other, & 0 if strings are =.
 */
 
 int _strcmp(char *s1, char *s2)
