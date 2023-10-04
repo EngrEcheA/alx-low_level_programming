@@ -9,6 +9,7 @@
  */
 
 int **alloc_grid(int width, int height);
+
 {
 	int **mee;
 	int x, y;
