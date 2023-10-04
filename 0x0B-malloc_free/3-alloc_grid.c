@@ -8,8 +8,7 @@
  * Return: pointer to 2 dimentional array
  */
 
-int **alloc_grid(int width, int height);
-
+int **alloc_grid(int width, int height)
 {
 	int **mee;
 	int x, y;
@@ -29,7 +28,7 @@ int **alloc_grid(int width, int height);
 		if (mee[x] == NULL)
 		{
 			for (; x >= 0; x--)
-				free(meet[x]);
+				free(mee[x]);
 			free(mee);
 			return (NULL);
 		}
