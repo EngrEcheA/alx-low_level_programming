@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * alloc_grd - nested loop to create grid
+ * alloc_grid - nested loop to create grid
  * @width: width input
  * @height: height input
  * Return: pointer to 2 dimentional array
