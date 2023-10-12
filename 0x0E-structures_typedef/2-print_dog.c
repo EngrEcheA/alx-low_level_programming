@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * print_dog - print struct name
+ * print_dog - print struc name
  * @d: input
  */
 
